@@ -4,4 +4,12 @@ public class TigerBlack: Tiger
     {
         Console.WriteLine("Con ho mau den");
     }
+    public override void Move()
+    {
+        base.Move();
+    }
+    public new void Breathe()
+    {
+        
+    }
 }
